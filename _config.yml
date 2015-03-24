@@ -1,0 +1,14 @@
+# Site settings
+title: Blossoms
+email: Klagender@gmail.com
+description: 
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://klagender.github.io" # the base hostname & protocol for your site
+
+# Trivial
+timezone: CN
+
+# Build settings
+markdown: kramdown
+permalink: none

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blogs
+permalink: /blogs/
+---
+
+<div class="home">
+
+
+{% for category in site.categories %}
+    <h1 class="page-heading">{{ category | first }}</h1>
+    <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=#C0C0C0 SIZE=1></HR><br>
+        {% for post in category.last %}
+
+            
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y"}}</span>
+        <p>{{ post.content | strip_html | truncate:145 }}</p>
+        
+            <br>
+        {% endfor %}
+    <br><br>
+{% endfor %}
+
+ <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+</div>

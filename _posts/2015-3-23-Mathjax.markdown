@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "本博客支持TeX公式"
+date:   2015-03-23 02:23:43
+categories: Physics&Math
+---
+
+<!--Mathjax-->
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+让我们来演示一下
+
+$$\phi\acute{\upsilon}\sigma\iota\varsigma$$
+
+$$\mathrm{e}^{- \mathrm{i} \pi} + 1 = 0$$
+
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+
+校园网学生可能需要连接国际网，虽然说可以吧MathJax整个放到hub上，我懒得搞这种麻烦事了。。<del>虽然也不算麻烦。。</del>
+
+另外还支持`Inline Code`以及
+
+~~~ cpp
+template <class T> class CodeBlocks
+~~~
+
+MathJax的使用很简单，在markdown里面加上
+
+~~~
+<!--Mathjax-->
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+~~~
+
+即可。我没有放在layout里，因为这货需要国际网，我不想啥东西都连国际网，得扣钱的。
+
+话说kramdown的语法好奇怪...我研究一下怎么弄<del>删除线...</del>language specified code block...
+
