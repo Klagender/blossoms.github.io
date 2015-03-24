@@ -12,3 +12,4 @@ timezone: CN
 # Build settings
 markdown: kramdown
 permalink: none
+highlighter: true

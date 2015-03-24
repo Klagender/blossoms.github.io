@@ -2,7 +2,7 @@
 layout: post
 title:  "本博客支持TeX公式"
 date:   2015-03-23 02:23:43
-categories: Physics&Math
+categories: Physics
 ---
 
 <!--Mathjax-->
