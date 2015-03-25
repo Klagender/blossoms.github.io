@@ -31,7 +31,9 @@ $$
 \end{align*}
 $$
 
-校园网学生可能需要连接国际网，虽然说可以吧MathJax整个放到hub上，我懒得搞这种麻烦事了。。<del>虽然也不算麻烦。。</del>
+<del>校园网学生可能需要连接国际网，虽然说可以吧MathJax整个放到hub上，我懒得搞这种麻烦事了。。<del>虽然也不算麻烦。。</del>
+新发现:只要把Mathjax的cdn换成如下地址即可高速、不访问国际网而实现公式输出
+    cdn.bootcss.com/mathjax/2.5.1/MathJax.js
 
 另外还支持`Inline Code`以及
 
