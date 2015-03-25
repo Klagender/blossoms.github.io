@@ -5,7 +5,7 @@ categories: Physics
 ---
 
 <!--Mathjax-->
-<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script src='http://cdn.bootcss.com/mathjax/2.5.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
 ###假设
 ----------------  
