@@ -5,8 +5,8 @@
     <description></description>
     <link>http://klagender.github.io/</link>
     <atom:link href="http://klagender.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2015 18:18:32 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2015 18:18:32 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2015 18:21:14 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2015 18:21:14 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -52,30 +52,30 @@
 
 &lt;p&gt;由方向独立假设有&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v_x,v_y,v_z)=g_(v_x^2)g(v_y^2)g(v_z^2)&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v_x,v_y,v_z)=g(v_x^2)g(v_y^2)g(v_z^2)&lt;/script&gt;
 
 &lt;p&gt;取对数,并由&lt;script type=&quot;math/tex&quot;&gt;f(v_x^2+v_y^2+v_z^2)=f(v_x^2+v_y^2+v_z^2)&lt;/script&gt;得到&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\ln f(v_x^2+v_y^2+v_z^2)=\ln g_(v_x^2)+\ln g(v_y^2)+\ln g(v_z^2)&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\ln f(v_x^2+v_y^2+v_z^2)=\ln g(v_x^2)+\ln g(v_y^2)+\ln g(v_z^2)&lt;/script&gt;
 
 &lt;p&gt;又有&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac {\partial \ln f(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=\frac{\partial \ln g_(v_i^2)}{\partial v_i^2} \qquad i=x,y,z&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac {\partial \ln f(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=\frac{\partial \ln g(v_i^2)}{\partial v_i^2} \qquad i=x,y,z&lt;/script&gt;
 
 &lt;p&gt;由于各向同性，上式的左边,对于&lt;script type=&quot;math/tex&quot;&gt;i=x,y,z&lt;/script&gt;都应该是一样的;因而相应地,右边对于&lt;script type=&quot;math/tex&quot;&gt;i=x,y,z&lt;/script&gt;都取相同的值,这代表取值与&lt;script type=&quot;math/tex&quot;&gt;v_x,v_y,v_z&lt;/script&gt;皆无关,应是一个独立的量,那么只能是一个常系数&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;。假设&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;大于0,那么将有许多速度趋近于无穷的粒子,这显然不对,因而设数&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;大于零,并令&lt;script type=&quot;math/tex&quot;&gt;\frac {\partial \ln f(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=-\alpha&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;上式是十分简单的常微分方程，解得&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;g_(v_i)=C \mathrm{e}^{-\alpha v_i^2} \qquad C = const&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;g(v_i)=C \mathrm{e}^{-\alpha v_i^2} \qquad C = const&lt;/script&gt;
 
 &lt;p&gt;由归一率&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_{-\infty}^{+\infty} g_(v_i) d v_i = 1 &lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_{-\infty}^{+\infty} g(v_i) d v_i = 1 &lt;/script&gt;
 
 &lt;p&gt;上积分可由Gaussian integral算出,具体地&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
-[\int_{-\infty}^{+\infty} g_(v_i) d v_i]^2 = 1 \quad  \\
+[\int_{-\infty}^{+\infty} g(v_i) d v_i]^2 = 1 \quad  \\
 \Rightarrow [\int_{-\infty}^{+\infty} C \mathrm{e}^{-\alpha x^2} d x] [\int_{-\infty}^{+\infty} C \mathrm{e}^{-\alpha y^2} d y] = 1 \quad (v_i^2=x^2+y^2)\\
 \Rightarrow \quad C^2[\int_{0}^{2\pi} d\theta \int_{0}^{+\infty} \mathrm{e}^{-\alpha v_i^2}v_i d v_i]\\
 \Rightarrow \quad C = \sqrt{\frac{\alpha}{\pi}}
@@ -87,7 +87,7 @@
 
 &lt;p&gt;求&lt;script type=&quot;math/tex&quot;&gt;\bar{v_i^2}&lt;/script&gt;:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bar{v_i^2} = \int_{-\infty}^{+\infty} v_x^2 g_(v_i) d v_i&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\bar{v_i^2} = \int_{-\infty}^{+\infty} v_x^2 g(v_i) d v_i&lt;/script&gt;
 
 &lt;p&gt;再由Gaussian integral,同上的坐标变换(极坐标变换),由分部积分可算出&lt;/p&gt;
 
