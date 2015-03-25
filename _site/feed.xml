@@ -5,8 +5,8 @@
     <description></description>
     <link>http://klagender.github.io/</link>
     <atom:link href="http://klagender.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2015 16:37:58 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2015 16:37:58 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2015 16:39:33 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2015 16:39:33 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -158,10 +158,6 @@
 \end{align*}
  %]]&gt;&lt;/script&gt;
 
-&lt;p&gt;&lt;del&gt;校园网学生可能需要连接国际网，虽然说可以吧MathJax整个放到hub上，我懒得搞这种麻烦事了。。虽然也不算麻烦。。&lt;/del&gt;
-新发现:只要把Mathjax的cdn换成如下地址即可高速、不访问国际网而实现公式输出
-&lt;code&gt;cdn.bootcss.com/mathjax/2.5.1/MathJax.js&lt;/code&gt;&lt;/p&gt;
-
 &lt;p&gt;另外还支持&lt;code&gt;Inline Code&lt;/code&gt;以及&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-cpp&quot;&gt;template &amp;lt;class T&amp;gt; class CodeBlocks
@@ -174,6 +170,10 @@
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;即可。我没有放在layout里，因为这货需要国际网，我不想啥东西都连国际网，得扣钱的。&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;校园网学生可能需要连接国际网，虽然说可以吧MathJax整个放到hub上，我懒得搞这种麻烦事了。。虽然也不算麻烦。。&lt;/del&gt;
+新发现:只要把Mathjax的cdn换成如下地址即可高速、不访问国际网而实现公式输出
+&lt;code&gt;cdn.bootcss.com/mathjax/2.5.1/MathJax.js&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;话说kramdown的语法好奇怪…我研究一下怎么弄&lt;del&gt;删除线…&lt;/del&gt;language specified code block…&lt;/p&gt;
 
