@@ -22,21 +22,21 @@ categories: Physics
 
 由各向同性假设,有
 
-$$f_(v_x,v_y,v_z)=f_(v_x^2+v_y^2+v_z^2)$$
+$$f(v_x,v_y,v_z)=f(v_x^2+v_y^2+v_z^2)$$
 
 由方向独立假设有
 
-$$f_(v_x,v_y,v_z)=g_(v_x^2)g(v_y^2)g(v_z^2)$$
+$$f(v_x,v_y,v_z)=g_(v_x^2)g(v_y^2)g(v_z^2)$$
 
-取对数,并由$$f_(v_x^2+v_y^2+v_z^2)=f_(v_x^2+v_y^2+v_z^2)$$得到
+取对数,并由$$f(v_x^2+v_y^2+v_z^2)=f(v_x^2+v_y^2+v_z^2)$$得到
 
-$$\ln f_(v_x^2+v_y^2+v_z^2)=\ln g_(v_x^2)+\ln g(v_y^2)+\ln g(v_z^2)$$
+$$\ln f(v_x^2+v_y^2+v_z^2)=\ln g_(v_x^2)+\ln g(v_y^2)+\ln g(v_z^2)$$
 
 又有
 
-$$\frac {\partial \ln f_(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=\frac{\partial \ln g_(v_i^2)}{\partial v_i^2} \qquad i=x,y,z$$
+$$\frac {\partial \ln f(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=\frac{\partial \ln g_(v_i^2)}{\partial v_i^2} \qquad i=x,y,z$$
 
-由于各向同性，上式的左边,对于$$i=x,y,z$$都应该是一样的;因而相应地,右边对于$$i=x,y,z$$都取相同的值,这代表取值与$$v_x,v_y,v_z$$皆无关,应是一个独立的量,那么只能是一个常系数$$\alpha$$。假设$$\alpha$$大于0,那么将有许多速度趋近于无穷的粒子,这显然不对,因而设数$$\alpha$$大于零,并令$$\frac {\partial \ln f_(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=-\alpha$$
+由于各向同性，上式的左边,对于$$i=x,y,z$$都应该是一样的;因而相应地,右边对于$$i=x,y,z$$都取相同的值,这代表取值与$$v_x,v_y,v_z$$皆无关,应是一个独立的量,那么只能是一个常系数$$\alpha$$。假设$$\alpha$$大于0,那么将有许多速度趋近于无穷的粒子,这显然不对,因而设数$$\alpha$$大于零,并令$$\frac {\partial \ln f(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=-\alpha$$
 
 上式是十分简单的常微分方程，解得
 
@@ -69,7 +69,7 @@ $$\alpha = \frac{m}{2k_B T}$$
 
 代入即可得到Maxwell速度分布函数的一维形式，由于方向独立，只需要三个方向的分布函数相乘就能得到三维的Maxwell速度分布函数:
 
-$$f_(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$
+$$f(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$
 <br><br><br><br/>
 
 ###Remark
@@ -78,7 +78,7 @@ $$f_(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$
 
 将速度分布转到球坐标中并对方向(即角度)积分就可得到速率分布,由于方向无关,积分即为简单,即乘上一个球的球面度$$4\pi$$,于是有速率分布
 
-$$f_(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$
+$$f(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$
 
 <br><br><br><br/>
 
@@ -88,8 +88,8 @@ $$f_(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$
 
 速度分布
 
-$$f_(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$
+$$f(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$
 
 速率分布
 
-$$f_(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$
+$$f(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}$$

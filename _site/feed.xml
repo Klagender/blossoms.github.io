@@ -5,8 +5,8 @@
     <description></description>
     <link>http://klagender.github.io/</link>
     <atom:link href="http://klagender.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2015 16:39:33 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2015 16:39:33 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2015 18:18:32 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2015 18:18:32 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -48,21 +48,21 @@
 
 &lt;p&gt;由各向同性假设,有&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f_(v_x,v_y,v_z)=f_(v_x^2+v_y^2+v_z^2)&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v_x,v_y,v_z)=f(v_x^2+v_y^2+v_z^2)&lt;/script&gt;
 
 &lt;p&gt;由方向独立假设有&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f_(v_x,v_y,v_z)=g_(v_x^2)g(v_y^2)g(v_z^2)&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v_x,v_y,v_z)=g_(v_x^2)g(v_y^2)g(v_z^2)&lt;/script&gt;
 
-&lt;p&gt;取对数,并由&lt;script type=&quot;math/tex&quot;&gt;f_(v_x^2+v_y^2+v_z^2)=f_(v_x^2+v_y^2+v_z^2)&lt;/script&gt;得到&lt;/p&gt;
+&lt;p&gt;取对数,并由&lt;script type=&quot;math/tex&quot;&gt;f(v_x^2+v_y^2+v_z^2)=f(v_x^2+v_y^2+v_z^2)&lt;/script&gt;得到&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\ln f_(v_x^2+v_y^2+v_z^2)=\ln g_(v_x^2)+\ln g(v_y^2)+\ln g(v_z^2)&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\ln f(v_x^2+v_y^2+v_z^2)=\ln g_(v_x^2)+\ln g(v_y^2)+\ln g(v_z^2)&lt;/script&gt;
 
 &lt;p&gt;又有&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac {\partial \ln f_(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=\frac{\partial \ln g_(v_i^2)}{\partial v_i^2} \qquad i=x,y,z&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac {\partial \ln f(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=\frac{\partial \ln g_(v_i^2)}{\partial v_i^2} \qquad i=x,y,z&lt;/script&gt;
 
-&lt;p&gt;由于各向同性，上式的左边,对于&lt;script type=&quot;math/tex&quot;&gt;i=x,y,z&lt;/script&gt;都应该是一样的;因而相应地,右边对于&lt;script type=&quot;math/tex&quot;&gt;i=x,y,z&lt;/script&gt;都取相同的值,这代表取值与&lt;script type=&quot;math/tex&quot;&gt;v_x,v_y,v_z&lt;/script&gt;皆无关,应是一个独立的量,那么只能是一个常系数&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;。假设&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;大于0,那么将有许多速度趋近于无穷的粒子,这显然不对,因而设数&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;大于零,并令&lt;script type=&quot;math/tex&quot;&gt;\frac {\partial \ln f_(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=-\alpha&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;由于各向同性，上式的左边,对于&lt;script type=&quot;math/tex&quot;&gt;i=x,y,z&lt;/script&gt;都应该是一样的;因而相应地,右边对于&lt;script type=&quot;math/tex&quot;&gt;i=x,y,z&lt;/script&gt;都取相同的值,这代表取值与&lt;script type=&quot;math/tex&quot;&gt;v_x,v_y,v_z&lt;/script&gt;皆无关,应是一个独立的量,那么只能是一个常系数&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;。假设&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;大于0,那么将有许多速度趋近于无穷的粒子,这显然不对,因而设数&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;大于零,并令&lt;script type=&quot;math/tex&quot;&gt;\frac {\partial \ln f(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=-\alpha&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;上式是十分简单的常微分方程，解得&lt;/p&gt;
 
@@ -95,7 +95,7 @@
 
 &lt;p&gt;代入即可得到Maxwell速度分布函数的一维形式，由于方向独立，只需要三个方向的分布函数相乘就能得到三维的Maxwell速度分布函数:&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f_(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;remark&quot;&gt;Remark&lt;/h3&gt;
@@ -104,7 +104,7 @@
 
 &lt;p&gt;将速度分布转到球坐标中并对方向(即角度)积分就可得到速率分布,由于方向无关,积分即为简单,即乘上一个球的球面度&lt;script type=&quot;math/tex&quot;&gt;4\pi&lt;/script&gt;,于是有速率分布&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f_(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -114,11 +114,11 @@
 
 &lt;p&gt;速度分布&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f_(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
 
 &lt;p&gt;速率分布&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f_(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
 </description>
         <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
         <link>http://klagender.github.io/physics/Maxwell%E5%88%86%E5%B8%83.html</link>

@@ -109,21 +109,21 @@ Doesn't do anything-->
 
 <p>由各向同性假设,有</p>
 
-<script type="math/tex; mode=display">f_(v_x,v_y,v_z)=f_(v_x^2+v_y^2+v_z^2)</script>
+<script type="math/tex; mode=display">f(v_x,v_y,v_z)=f(v_x^2+v_y^2+v_z^2)</script>
 
 <p>由方向独立假设有</p>
 
-<script type="math/tex; mode=display">f_(v_x,v_y,v_z)=g_(v_x^2)g(v_y^2)g(v_z^2)</script>
+<script type="math/tex; mode=display">f(v_x,v_y,v_z)=g_(v_x^2)g(v_y^2)g(v_z^2)</script>
 
-<p>取对数,并由<script type="math/tex">f_(v_x^2+v_y^2+v_z^2)=f_(v_x^2+v_y^2+v_z^2)</script>得到</p>
+<p>取对数,并由<script type="math/tex">f(v_x^2+v_y^2+v_z^2)=f(v_x^2+v_y^2+v_z^2)</script>得到</p>
 
-<script type="math/tex; mode=display">\ln f_(v_x^2+v_y^2+v_z^2)=\ln g_(v_x^2)+\ln g(v_y^2)+\ln g(v_z^2)</script>
+<script type="math/tex; mode=display">\ln f(v_x^2+v_y^2+v_z^2)=\ln g_(v_x^2)+\ln g(v_y^2)+\ln g(v_z^2)</script>
 
 <p>又有</p>
 
-<script type="math/tex; mode=display">\frac {\partial \ln f_(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=\frac{\partial \ln g_(v_i^2)}{\partial v_i^2} \qquad i=x,y,z</script>
+<script type="math/tex; mode=display">\frac {\partial \ln f(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=\frac{\partial \ln g_(v_i^2)}{\partial v_i^2} \qquad i=x,y,z</script>
 
-<p>由于各向同性，上式的左边,对于<script type="math/tex">i=x,y,z</script>都应该是一样的;因而相应地,右边对于<script type="math/tex">i=x,y,z</script>都取相同的值,这代表取值与<script type="math/tex">v_x,v_y,v_z</script>皆无关,应是一个独立的量,那么只能是一个常系数<script type="math/tex">\alpha</script>。假设<script type="math/tex">\alpha</script>大于0,那么将有许多速度趋近于无穷的粒子,这显然不对,因而设数<script type="math/tex">\alpha</script>大于零,并令<script type="math/tex">\frac {\partial \ln f_(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=-\alpha</script></p>
+<p>由于各向同性，上式的左边,对于<script type="math/tex">i=x,y,z</script>都应该是一样的;因而相应地,右边对于<script type="math/tex">i=x,y,z</script>都取相同的值,这代表取值与<script type="math/tex">v_x,v_y,v_z</script>皆无关,应是一个独立的量,那么只能是一个常系数<script type="math/tex">\alpha</script>。假设<script type="math/tex">\alpha</script>大于0,那么将有许多速度趋近于无穷的粒子,这显然不对,因而设数<script type="math/tex">\alpha</script>大于零,并令<script type="math/tex">\frac {\partial \ln f(v_x^2+v_y^2+v_z^2)}{\partial v_i^2}=-\alpha</script></p>
 
 <p>上式是十分简单的常微分方程，解得</p>
 
@@ -156,7 +156,7 @@ Doesn't do anything-->
 
 <p>代入即可得到Maxwell速度分布函数的一维形式，由于方向独立，只需要三个方向的分布函数相乘就能得到三维的Maxwell速度分布函数:</p>
 
-<p><script type="math/tex">f_(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}</script>
+<p><script type="math/tex">f(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}</script>
 <br /><br /><br /><br /></p>
 
 <h3 id="remark">Remark</h3>
@@ -165,7 +165,7 @@ Doesn't do anything-->
 
 <p>将速度分布转到球坐标中并对方向(即角度)积分就可得到速率分布,由于方向无关,积分即为简单,即乘上一个球的球面度<script type="math/tex">4\pi</script>,于是有速率分布</p>
 
-<script type="math/tex; mode=display">f_(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}</script>
+<script type="math/tex; mode=display">f(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}</script>
 
 <p><br /><br /><br /><br /></p>
 
@@ -175,11 +175,11 @@ Doesn't do anything-->
 
 <p>速度分布</p>
 
-<script type="math/tex; mode=display">f_(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}</script>
+<script type="math/tex; mode=display">f(v) = (\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}</script>
 
 <p>速率分布</p>
 
-<script type="math/tex; mode=display">f_(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}</script>
+<script type="math/tex; mode=display">f(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}</script>
 
   </article>
 
