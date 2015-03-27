@@ -5,8 +5,8 @@
     <description></description>
     <link>http://klagender.github.io/</link>
     <atom:link href="http://klagender.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2015 18:21:14 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2015 18:21:14 +0000</lastBuildDate>
+    <pubDate>Fri, 27 Mar 2015 17:41:52 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2015 17:41:52 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -102,9 +102,9 @@
 &lt;hr /&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;将速度分布转到球坐标中并对方向(即角度)积分就可得到速率分布,由于方向无关,积分即为简单,即乘上一个球的球面度&lt;script type=&quot;math/tex&quot;&gt;4\pi&lt;/script&gt;,于是有速率分布&lt;/p&gt;
+&lt;p&gt;将速度分布转到球坐标中并对方向(即角度)积分就可得到速率分布,由于方向无关,积分简单,即乘上一个球的球面度&lt;script type=&quot;math/tex&quot;&gt;4\pi&lt;/script&gt;以及伸缩,于是有速率分布&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v) = 4\pi v^2(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -118,7 +118,7 @@
 
 &lt;p&gt;速率分布&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v) = 4\pi(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(v) = 4\pi v^2(\frac{m}{2k_B T})^{\frac{3}{2}} \exp{[-\frac{mv^2}{2k_B T}]}&lt;/script&gt;
 </description>
         <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
         <link>http://klagender.github.io/physics/Maxwell%E5%88%86%E5%B8%83.html</link>
