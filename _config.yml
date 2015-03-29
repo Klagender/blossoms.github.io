@@ -13,6 +13,6 @@ timezone: CN
 markdown: kramdown
 permalink: none
 pygments: true
-paginate_path: "/diaries/page:5/"
-paginate_path: "/essays/page:5/"
-paginate_path: "/physics/page:5/"
+paginate_path: "/Ethos/page:5/"
+paginate_path: "/Pathos/page:5/"
+paginate_path: "/Logos/page:5/"
