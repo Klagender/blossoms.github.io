@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Maxwell速度分布律的经典导出"
-categories: Physics
+categories: Logos
 ---
 
 <!--Mathjax-->

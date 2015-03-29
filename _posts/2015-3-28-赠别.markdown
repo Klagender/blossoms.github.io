@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "赠别"
-categories: pathos
+categories: Pathos
 ---
 
 美丽的少女已与母亲再会

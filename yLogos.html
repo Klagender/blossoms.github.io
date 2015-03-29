@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Physics
-permalink: /physics/
+title: Logos
+permalink: /Logos/
 ---
 
 <div class="home">
-<br><br>
 
+<br><br>
   <ul class="post-list">
-    {% for post in site.categories.physics %}
+    {% for post in site.categories.logos %}
       <li>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br>
          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -17,6 +17,7 @@ permalink: /physics/
       </li>
     {% endfor %}
   </ul>
+
 
  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
